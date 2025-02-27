@@ -31,27 +31,27 @@ The app is built with **Streamlit** for an interactive user interface.
 ## ⚙️ Installation & Setup  
 
 ### 1️⃣ Create Virtual Environment  
-\``
+```
 python3 -m venv myenv
 source myenv/bin/activate  # On macOS/Linux
 myenv\Scripts\activate     # On Windows
-\``
+```
 
 ### 2️⃣ Install Dependencies  
-\``
+```
 pip install --upgrade pip
 pip install -r requirements.txt
-\``
+```
 
 > **If you want to install manually:**  
-\``
+```
 pip install streamlit pandas numpy scikit-learn joblib
-\``
+```
 
 ### 3️⃣ Run the Streamlit App  
-\``
+```
 streamlit run app.py
-\``
+```
 
 ---
 
@@ -70,11 +70,11 @@ This app can be deployed on:
 - **Heroku / Render**  
 
 For **Streamlit Cloud** deployment:  
-\`
-# Step 1: Create a GitHub repository and push this project
-# Step 2: Go to Streamlit Cloud and connect your GitHub repo
-# Step 3: Set `app.py` as the main file and deploy
-\`
+```
+Step 1: Create a GitHub repository and push this project
+Step 2: Go to Streamlit Cloud and connect your GitHub repo
+Step 3: Set `app.py` as the main file and deploy
+```
 
 ---
 
