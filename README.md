@@ -12,8 +12,7 @@ The app is built with **Streamlit** for an interactive user interface.
 📦 AI-Disease-Diagnosis  
 ├── 📜 README.md                      # Project description  
 ├── 📜 requirements.txt               # List of dependencies  
-├── 📜 .gitignore                     # Ignore unnecessary files  
-├── 📜 disease_diagnosisLR.ipynb      # Jupyter Notebook for training the model  
+├── 📜 .gitignore                     # Ignore unnecessary files    
 ├── 📜 disease_diagnosis_model.pkl    # Trained machine learning model  
 ├── 📜 app.py                         # Streamlit app for disease prediction  
 
