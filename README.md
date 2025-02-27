@@ -8,7 +8,7 @@ The app is built with **Streamlit** for an interactive user interface.
 ---
 
 ## 📂 Project Structure  
-\`\`\`
+
 📦 AI-Disease-Diagnosis  
 ├── 📜 README.md                      # Project description  
 ├── 📜 requirements.txt               # List of dependencies  
@@ -16,7 +16,6 @@ The app is built with **Streamlit** for an interactive user interface.
 ├── 📜 disease_diagnosisLR.ipynb      # Jupyter Notebook for training the model  
 ├── 📜 disease_diagnosis_model.pkl    # Trained machine learning model  
 ├── 📜 app.py                         # Streamlit app for disease prediction  
-\`\`\`
 
 ---
 
@@ -32,27 +31,27 @@ The app is built with **Streamlit** for an interactive user interface.
 ## ⚙️ Installation & Setup  
 
 ### 1️⃣ Create Virtual Environment  
-\`\`\`bash
+\`
 python3 -m venv myenv
 source myenv/bin/activate  # On macOS/Linux
 myenv\Scripts\activate     # On Windows
-\`\`\`
+\`
 
 ### 2️⃣ Install Dependencies  
-\`\`\`bash
+\`
 pip install --upgrade pip
 pip install -r requirements.txt
-\`\`\`
+\`
 
 > **If you want to install manually:**  
-\`\`\`bash
+\`
 pip install streamlit pandas numpy scikit-learn joblib
-\`\`\`
+\`
 
 ### 3️⃣ Run the Streamlit App  
-\`\`\`bash
+\`
 streamlit run app.py
-\`\`\`
+\`
 
 ---
 
@@ -71,11 +70,11 @@ This app can be deployed on:
 - **Heroku / Render**  
 
 For **Streamlit Cloud** deployment:  
-\`\`\`bash
+\`
 # Step 1: Create a GitHub repository and push this project
 # Step 2: Go to Streamlit Cloud and connect your GitHub repo
 # Step 3: Set `app.py` as the main file and deploy
-\`\`\`
+\`
 
 ---
 
