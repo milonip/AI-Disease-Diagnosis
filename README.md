@@ -63,21 +63,6 @@ streamlit run app.py
 
 ---
 
-## 🚀 Deployment  
-This app can be deployed on:  
-- **Streamlit Cloud**  
-- **Hugging Face Spaces**  
-- **Heroku / Render**  
-
-For **Streamlit Cloud** deployment:  
-```
-Step 1: Create a GitHub repository and push this project
-Step 2: Go to Streamlit Cloud and connect your GitHub repo
-Step 3: Set `app.py` as the main file and deploy
-```
-
----
-
 ## 📌 Author & Credits  
 - **Developed by:** Miloni Patel 
 - **Dataset Source:** Kaggle  
